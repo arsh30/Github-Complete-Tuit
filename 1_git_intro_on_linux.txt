@@ -1,0 +1,27 @@
+how to install git -> sudo apt-get install git
+- go to github.com - signup 
+- setup git username email on ubuntu by writing below command
+    ->git config --global user.name "add_our_username"
+[username should be exactly same which is in github]
+
+    -> git config --global user.email "our_email_id"
+
+- go to github -> create new repository
+- now create a directory/New_folder in ubuntu by writing below: 
+   - mkdir foldername
+   - cd foldername 
+
+COMMANDS TO UPLOAD FILES ON GITHUB 
+- git init 
+- git add . or filename
+- git commit -m "comment or message"
+- git remote add origin <GITHUB_LINK>
+- git push -u origin master
+
+-------------------------------------
+WHEN IT IS DONE -> They ask for username and password 
+To upload on git
+
+-----------------------------------
+ GENERAL COMMAND TO MAKE NEW FILE UBUNTU - 
+ nano filename.extension
